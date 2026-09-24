@@ -1,8 +1,8 @@
 # 📼 Datamosh Glitch Studio
 
-[![CI](https://github.com/1nc0gn30/datamosh-glitch-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/1nc0gn30/datamosh-glitch-studio/actions)
+[![CI](https://github.com/NullAITech/datamosh-glitch-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/NullAITech/datamosh-glitch-studio/actions)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-0%20runtime-success.svg)](https://github.com/1nc0gn30/datamosh-glitch-studio)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-0%20runtime-success.svg)](https://github.com/NullAITech/datamosh-glitch-studio)
 [![MCP Server](https://img.shields.io/badge/MCP-FastMCP%202024--11--05-blueviolet.svg)](https://modelcontextprotocol.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -26,7 +26,7 @@
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/1nc0gn30/datamosh-glitch-studio.git
+git clone https://github.com/NullAITech/datamosh-glitch-studio.git
 cd datamosh-glitch-studio
 
 # Install in editable mode
@@ -199,5 +199,5 @@ pytest -v
 
 ## 📜 License
 
-MIT License © 2026 1nc0gn30
+MIT License © 2026 NullAITech
 
