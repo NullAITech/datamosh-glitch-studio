@@ -1,0 +1,21 @@
+{
+  "name": "datamosh-glitch-studio",
+  "version": "1.0.0",
+  "description": "Visual Artifact Synthesizer, I-Frame Drop Engine, Bitplane Glitch & MCP Server",
+  "main": "electron/main.cjs",
+  "bin": {
+    "datamosh": "./bin/datamosh.js"
+  },
+  "scripts": {
+    "start": "electron .",
+    "desktop": "electron .",
+    "web": "node bin/datamosh.js web",
+    "cli": "node bin/datamosh.js",
+    "test": "pytest tests/"
+  },
+  "author": "Zoth Core Intelligence",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^34.5.8"
+  }
+}

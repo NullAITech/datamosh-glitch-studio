@@ -94,7 +94,7 @@ def build_parser() -> argparse.ArgumentParser:
     # serve
     p_serve = sub.add_parser("serve", parents=[base], help="Start Datamosh Studio Web UI (Material 3 influenced)")
     p_serve.add_argument("--host", default="0.0.0.0", help="Host address (default: 0.0.0.0)")
-    p_serve.add_argument("--port", type=int, default=8098, help="Port (default: 8098)")
+    p_serve.add_argument("--port", type=int, default=8081, help="Port (default: 8081)")
 
     # mcp
     p_mcp = sub.add_parser("mcp", parents=[base], help="Run Model Context Protocol stdio server")

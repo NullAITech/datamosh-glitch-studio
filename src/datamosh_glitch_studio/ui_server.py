@@ -444,7 +444,7 @@ class DatamoshHTTPHandler(BaseHTTPRequestHandler):
         pass
 
 
-def run_ui_server(host: str = "0.0.0.0", port: int = 8098) -> ThreadingHTTPServer:
+def run_ui_server(host: str = "0.0.0.0", port: int = 8081) -> ThreadingHTTPServer:
     """Launch UI HTTP Server."""
     server = ThreadingHTTPServer((host, port), DatamoshHTTPHandler)
     return server
